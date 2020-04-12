@@ -25,7 +25,7 @@ image:
 service:
   enabled: true
   type: ClusterIP
-  metricsPort: 9797
+  #metricsPort: 9797
   httpPort: 9898
   externalPort: 9898
   grpcPort: 9999
